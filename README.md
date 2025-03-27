@@ -16,33 +16,21 @@ Clone the github repository using git: **Open a terminal (Linux/mac) | an Anacon
 ```
 git clone https://github.com/joperea/TDA-Spring2025.git
 ```
-
-
-## Create and activate the course's conda environment:
-
-We will first create and activate a separate conda environment for the course. This is so we don't create conflicts with any other packages in your Python installation. 
-```
-conda create -n TDA python=3.9
-conda activate TDA
-```
+ 
 
 ## Install dependencies:
-#### Homework 1
-```
-pip install glasbey scikit-learn jupyterlab
-```
-#### Clustering (Demo 1):
-```
-pip install pandas
-pip install git+https://github.com/LuisScoccola/persistable.git@experimental
-```
 
-#### Euler Curves (Demo 2):
+#### Euler Curves (Demo 1):
 ```
 pip install bokeh pymeshlab hirola
 ```
 
-#### Computing persistent homology (Demo 3):
+#### Computing persistent homology (Demo 2):
 ```
 pip install cython ripser plotly
 ```
+
+
+
+
+
